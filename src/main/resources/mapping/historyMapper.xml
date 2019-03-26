@@ -12,7 +12,7 @@
         <delete id="deleteHistory"  parameterType="int">
                 delete from history where history_id = #{historyId}
         </delete>
-        <select id="selectHistoryByUserId" resultMap="HistoryResult" parameterType="com.pojo.History">
+        <select id="selectHistoryByUserId" resultMap="HistoryResult" parameterType="int">
                 select * from history where user_id=${userId}
         </select>
         <insert id="addHistory" parameterType="com.pojo.History">

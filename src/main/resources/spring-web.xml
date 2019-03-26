@@ -33,20 +33,6 @@
         <property name="maxUploadSize" value="10485760000"></property><!-- 最大上传文件大小 -->
         <property name="maxInMemorySize" value="10960"></property>
     </bean>
-    <!-- 在spring-mvc.xml文件中加入这段配置后，spring返回给页面的都是utf-8编码了 -->
-    <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
-        <property name="messageConverters">
-            <list>
-                <bean class="org.springframework.http.converter.StringHttpMessageConverter">
-                    <property name="supportedMediaTypes">
-                        <list>
-                            <value>text/html;charset=UTF-8</value>
-                        </list>
-                    </property>
-                </bean>
-            </list>
-        </property>
-    </bean>
     <!-- 权限拦截器 -->
     <!--<mvc:interceptors>-->
     <!--<mvc:interceptor>-->
@@ -91,7 +77,5 @@
     <!--<bean id="SuperAdminInterceptor"-->
     <!--class="com.imooc.myo2o.interceptor.superadmin.SuperAdminLoginInterceptor" />-->
     <!--</mvc:interceptor>-->
-
     <!--</mvc:interceptors>-->
-
 </beans>

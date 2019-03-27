@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE mapper
+                PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+                "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.HistoryDao">
+        <resultMap id="HistoryResult" type="com.pojo.History">
+                <id property="historyId" column="history_id"/>
+                <result property="userId" column="user_id"/>
+                <result property="goodsId" column="goods_id"/>
+                <result property="historyDate" column="history_date"/>
+        </resultMap>
+        <delete id="deleteHistory"  parameterType="int">
+                delete from history where history_id = #{historyId}
+        </delete>
+        <select id="selectHistoryByUserId" resultMap="HistoryResult" parameterType="int">
+                select * from history where user_id=${userId}
+        </select>
+        <insert id="addHistory" parameterType="com.pojo.History">
+                insert into history(user_id, goods_id, history_date) values (#{userId},#{goodsId},SYSDATE())
+        </insert>
+
+</mapper>

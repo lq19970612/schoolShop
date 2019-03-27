@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.GoodsDao">
+    <resultMap id="GoodsResult" type="com.pojo.Goods">
+        <id property="goodsId" column="goods_id"/>
+        <result property="goodsName" column="goods_name"/>
+        <result property="goodsPrice" column="goods_price"/>
+        <result property="goodsIntor" column="goods_intor"/>
+        <result property="goodsType" column="goods_type"/>
+        <result property="goodsImage" column="goods_image"/>
+        <result property="storeId" column="store_id"/>
+    </resultMap>
+    <select id="getGoods" parameterType="int" resultMap="GoodsResult">
+        select * from goods where goods_id=#{goodsId}
+    </select>
+</mapper>

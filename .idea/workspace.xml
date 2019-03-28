@@ -2,27 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a73580e-0d10-41fc-b5df-61e643313adf" name="Default" comment="成功向数据库添加历记录">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CampusShopingSystem/target/classes/jdbc.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CampusShopingSystem/target/classes/mapping/historyMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CampusShopingSystem/target/classes/mapping/userMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CampusShopingSystem/target/classes/mybatis-config.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CampusShopingSystem/target/classes/redis.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CampusShopingSystem/target/classes/spring-dao.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CampusShopingSystem/target/classes/spring-mykaptcha.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CampusShopingSystem/target/classes/spring-redis.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CampusShopingSystem/target/classes/spring-service.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CampusShopingSystem/target/classes/spring-web.xml" />
-      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/.idea/artifacts/CampusShopingSystem_war_exploded.xml" afterPath="$PROJECT_DIR$/../CampusShopingSystem/.idea/artifacts/CampusShopingSystem_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/.idea/libraries/Maven__com_github_penggle_kaptcha_2_3_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/.idea/libraries/Maven__com_jhlabs_filters_2_0_235_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/OrdersDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Orderdetails.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Orders.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/OrdersMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/.idea/artifacts/CampusShopingSystem_war.xml" afterPath="$PROJECT_DIR$/../CampusShopingSystem/.idea/artifacts/CampusShopingSystem_war.xml" />
+      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/../CampusShopingSystem/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/.idea/dataSources/7e161963-fae0-4040-b10f-836834d8d55c.xml" afterPath="$PROJECT_DIR$/../CampusShopingSystem/.idea/dataSources/7e161963-fae0-4040-b10f-836834d8d55c.xml" />
+      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/.idea/dataSources/ec91d183-d904-4b5a-ad4f-119710893dde.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../CampusShopingSystem/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../CampusShopingSystem/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/CampusShopingSystem.iml" afterPath="$PROJECT_DIR$/../CampusShopingSystem/CampusShopingSystem.iml" />
-      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/pom.xml" afterPath="$PROJECT_DIR$/../CampusShopingSystem/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/GoodsDao.java" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/GoodsDao.java" />
+      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Goods.java" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Goods.java" />
+      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/GoodsService.java" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/GoodsService.java" />
+      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/serviceImpl/GoodsServiceImpl.java" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/serviceImpl/GoodsServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/GoodsMapper.xml" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/GoodsMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,34 +41,72 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="schoolshop@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="schoolshop@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="schoolshop@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="schoolshop: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="schoolshop@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="schoolshop: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="goods: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GoodsServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/serviceImpl/GoodsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/GoodsDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Orderdetails.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Orderdetails.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrdersMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/OrdersMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrdersDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/OrdersDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="historyMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/historyMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+            <state relative-caret-position="57">
+              <caret line="3" column="62" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="62" />
               <folding>
                 <marker date="1553653708645" expanded="true" signature="642:693" ph="delete from history... " />
                 <marker date="1553653708645" expanded="true" signature="818:863" ph="select * fro... history" />
@@ -84,75 +116,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HistoryServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/serviceImpl/HistoryServiceImpl.java">
+      <file leaf-file-name="Orders.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Orders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-dao.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/spring-dao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+            <state relative-caret-position="361">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HistoryServiceImplTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/test/com/service/serviceImpl/HistoryServiceImplTest.java">
+      <file leaf-file-name="Goods.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Goods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CampusShopingSystem_war.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/.idea/artifacts/CampusShopingSystem_war.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CampusShopingSystem_war_exploded.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/.idea/artifacts/CampusShopingSystem_war_exploded.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HistoryDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/HistoryDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="57">
+              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -161,18 +139,18 @@
       <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="95">
+              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-service.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/spring-service.xml">
+      <file leaf-file-name="HistoryDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/HistoryDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="76">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -183,9 +161,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -201,15 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/mapping/userMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pojo/User.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapping/userMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapping/historyMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapping/userMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dao/HistoryDao.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/test.java" />
         <option value="$PROJECT_DIR$/src/test/com/test.java" />
@@ -244,14 +213,23 @@
         <option value="$PROJECT_DIR$/src/test/com/dao/HistoryDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/controller/HistoryController.java" />
         <option value="$PROJECT_DIR$/src/test/com/service/serviceImpl/HisstoryServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/../CampusShopingSystem/src/test/com/service/serviceImpl/HisstoryServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/HistoryDao.java" />
-        <option value="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/serviceImpl/HistoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/spring-dao.xml" />
-        <option value="$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/spring-service.xml" />
-        <option value="$PROJECT_DIR$/../CampusShopingSystem/src/test/com/service/serviceImpl/HistoryServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/../CampusShopingSystem/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/com/service/serviceImpl/HisstoryServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/HistoryDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/HistoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-service.xml" />
+        <option value="$PROJECT_DIR$/src/test/com/service/serviceImpl/HistoryServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pojo/Goods.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/GoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/GoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/GoodsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pojo/Orders.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pojo/Orderdetails.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/OrdersMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/OrdersDao.java" />
       </list>
     </option>
   </component>
@@ -268,7 +246,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="124" />
     <option name="y" value="56" />
     <option name="width" value="1620" />
@@ -339,6 +317,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -380,6 +360,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CampusShopingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusShopingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CampusShopingSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -469,10 +458,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -484,7 +471,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CampusShopingSystem" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/pojo" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
   <component name="RecentsManager">
@@ -759,7 +746,9 @@
       <workItem from="1553584351960" duration="112000" />
       <workItem from="1553584542648" duration="6882000" />
       <workItem from="1553646990313" duration="158000" />
-      <workItem from="1553647220418" duration="7245000" />
+      <workItem from="1553647220418" duration="8415000" />
+      <workItem from="1553744480634" duration="7652000" />
+      <workItem from="1553766536469" duration="269000" />
     </task>
     <task id="LOCAL-00001" summary="pojo上传">
       <created>1552878389247</created>
@@ -803,13 +792,17 @@
       <option name="project" value="LOCAL" />
       <updated>1553653439478</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="成功向数据库添加历记录">
+      <created>1553655539985</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1553655539985</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HistoryServiceImplTest_addHistory - 2019.03.27 at 09h 08m 32s.xml">
-      <configuration name="HistoryServiceImplTest.addHistory" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HistoryServiceImplTest_addHistory - 2019.03.27 at 09h 09m 32s.xml">
       <configuration name="HistoryServiceImplTest.addHistory" configurationId="JUnit" />
     </history-entry>
@@ -837,32 +830,34 @@
     <history-entry file="HistoryServiceImplTest_addHistory - 2019.03.27 at 10h 54m 43s.xml">
       <configuration name="HistoryServiceImplTest.addHistory" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HistoryServiceImplTest_addHistory - 2019.03.28 at 11h 43m 52s.xml">
+      <configuration name="HistoryServiceImplTest.addHistory" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38270000" />
+    <option name="totallyTimeSpent" value="47361000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="124" y="56" width="1620" height="920" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32754344" sideWeight="0.49791667" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3312102" sideWeight="0.50625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38709676" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280255" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38641188" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21571073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6336117" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26302084" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -873,6 +868,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32754344" sideWeight="0.49791667" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -897,115 +893,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/redis.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7e161963-fae0-4040-b10f-836834d8d55c/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/76d8d86/7e161963-fae0-4040-b10f-836834d8d55c/schoolshop.user" />
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/userMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1553653708489" expanded="true" signature="288:336" ph="select * fro... user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/CampusShopingSystem.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/userMapper" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/56dabe6f-8f4c-4a4b-8247-0617bfc61658/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/76d8d86/7e161963-fae0-4040-b10f-836834d8d55c/schoolshop.user" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7e161963-fae0-4040-b10f-836834d8d55c/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/test/test.java" />
     <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/test/com/test.java" />
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.17.RELEASE/spring-beans-4.3.17.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
@@ -1024,14 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1040,25 +920,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/test/com/dao/UserDaoTest.java" />
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/userMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding>
-            <marker date="1553653708489" expanded="true" signature="288:336" ph="select * fro... user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/test.java" />
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/spring-mykaptcha.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -1083,19 +945,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/test/com/dao/HistoryDaoTest.java" />
     <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/controller/HistoryController.java" />
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/spring-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="80" column="8" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ec91d183-d904-4b5a-ad4f-119710893dde/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,7 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="530" column="0" lean-forward="false" selection-start-line="530" selection-start-column="0" selection-end-line="530" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1127,42 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
           <caret line="54" column="51" lean-forward="false" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/HistoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/historyMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding>
-            <marker date="1553653708645" expanded="true" signature="642:693" ph="delete from history... " />
-            <marker date="1553653708645" expanded="true" signature="818:863" ph="select * fro... history" />
-            <marker date="1553653708645" expanded="true" signature="964:1056" ph="insert into history... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/HistoryDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1175,31 +991,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/serviceImpl/HistoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/.idea/artifacts/CampusShopingSystem_war_exploded.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1207,7 +1002,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7e161963-fae0-4040-b10f-836834d8d55c/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/76d8d86/7e161963-fae0-4040-b10f-836834d8d55c/schoolshop.address">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/76d8d86/7e161963-fae0-4040-b10f-836834d8d55c/schoolshop.history">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1219,10 +1034,209 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/spring-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="80" column="8" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/serviceImpl/HistoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#535#536#0" expanded="false" />
+            <element signature="e#587#588#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/76d8d86/7e161963-fae0-4040-b10f-836834d8d55c/schoolshop.goods">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/HistoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/test/com/service/serviceImpl/HistoryServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="323">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/userMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <marker date="1553653708489" expanded="true" signature="288:336" ph="select * fro... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/76d8d86/7e161963-fae0-4040-b10f-836834d8d55c/schoolshop.goods">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/76d8d86/7e161963-fae0-4040-b10f-836834d8d55c/schoolshop.orderdetails">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/GoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="21" column="64" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="64" />
+          <folding>
+            <marker date="1553758543079" expanded="true" signature="877:922" ph="select * fro... goods" />
+            <marker date="1553758543079" expanded="true" signature="1001:1086" ph="update goods... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="59" lean-forward="true" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/76d8d86/7e161963-fae0-4040-b10f-836834d8d55c/schoolshop.orders">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/serviceImpl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Orders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/GoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Orderdetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/historyMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="62" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="62" />
+          <folding>
+            <marker date="1553653708645" expanded="true" signature="642:693" ph="delete from history... " />
+            <marker date="1553653708645" expanded="true" signature="818:863" ph="select * fro... history" />
+            <marker date="1553653708645" expanded="true" signature="964:1056" ph="insert into history... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/OrdersMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/HistoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/OrdersDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>

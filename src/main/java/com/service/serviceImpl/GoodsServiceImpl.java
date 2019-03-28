@@ -16,4 +16,9 @@ public class GoodsServiceImpl implements GoodsService {
     public Goods getGoods(int goodsId) {
         return goodsDao.getGoods(goodsId);
     }
+
+    @Override
+    public void updateGoodsStock(int goodsId, int goodsNum) {
+        goodsDao.updateGoodsStock(goodsId,goodsNum);
+    }
 }

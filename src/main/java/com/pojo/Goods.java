@@ -6,9 +6,11 @@ public class Goods {
   private long goodsId;
   private String goodsName;
   private double goodsPrice;
-  private String goodsIntor;
+  private String goodsDesc;
   private String goodsType;
-  private String goodsImage;
+  private String goodsImg;
+  private long goodsStock;
+  private long goodsStatus;
   private long storeId;
 
 
@@ -39,12 +41,12 @@ public class Goods {
   }
 
 
-  public String getGoodsIntor() {
-    return goodsIntor;
+  public String getGoodsDesc() {
+    return goodsDesc;
   }
 
-  public void setGoodsIntor(String goodsIntor) {
-    this.goodsIntor = goodsIntor;
+  public void setGoodsDesc(String goodsDesc) {
+    this.goodsDesc = goodsDesc;
   }
 
 
@@ -57,12 +59,30 @@ public class Goods {
   }
 
 
-  public String getGoodsImage() {
-    return goodsImage;
+  public String getGoodsImg() {
+    return goodsImg;
   }
 
-  public void setGoodsImage(String goodsImage) {
-    this.goodsImage = goodsImage;
+  public void setGoodsImg(String goodsImg) {
+    this.goodsImg = goodsImg;
+  }
+
+
+  public long getGoodsStock() {
+    return goodsStock;
+  }
+
+  public void setGoodsStock(long goodsStock) {
+    this.goodsStock = goodsStock;
+  }
+
+
+  public long getGoodsStatus() {
+    return goodsStatus;
+  }
+
+  public void setGoodsStatus(long goodsStatus) {
+    this.goodsStatus = goodsStatus;
   }
 
 

@@ -7,12 +7,19 @@
         <id property="goodsId" column="goods_id"/>
         <result property="goodsName" column="goods_name"/>
         <result property="goodsPrice" column="goods_price"/>
-        <result property="goodsIntor" column="goods_intor"/>
+        <result property="goodsDesc" column="goods_desc"/>
         <result property="goodsType" column="goods_type"/>
-        <result property="goodsImage" column="goods_image"/>
+        <result property="goodsImg" column="goods_img"/>
+        <result property="goodsStock" column="goods_stock"/>
+        <result property="goodsStatus" column="goods_status"/>
         <result property="storeId" column="store_id"/>
     </resultMap>
     <select id="getGoods" parameterType="int" resultMap="GoodsResult">
         select * from goods where goods_id=#{goodsId}
     </select>
+
+    <update id="updateGoodsStock" parameterType="int">
+        update goods  set goods_stock = goods_stock - #{goodsNum} where goods_id = #{goodsId}
+    </update>
+
 </mapper>

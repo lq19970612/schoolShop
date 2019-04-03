@@ -9,11 +9,11 @@
                 <result property="goodsId" column="goods_id"/>
                 <result property="historyDate" column="history_date"/>
         </resultMap>
-        <delete id="deleteHistory"  parameterType="int">
+        <delete id="deleteHistory"  parameterType="java.lang.Long">
                 delete from history where history_id = #{historyId}
         </delete>
-        <select id="selectHistoryByUserId" resultMap="HistoryResult" parameterType="int">
-                select * from history where user_id=${userId}
+        <select id="selectHistoryByUserId" resultMap="HistoryResult" parameterType="java.lang.Long">
+                select * from history where  user_id=${userId} order by history_date DESC
         </select>
         <insert id="addHistory" parameterType="com.pojo.History">
                 insert into history(user_id, goods_id, history_date) values (#{userId},#{goodsId},SYSDATE())

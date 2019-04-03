@@ -22,4 +22,12 @@ public class HistoryServiceImplTest {
         history.setUserId(1);
         historyService.addHistory(history);
     }
+
+    @Test
+    public void selectHistoryByUserId(){
+        History[] histories = historyService.selectHistoryByUserId(1);
+        for(History history:histories){
+            System.out.println("浏览历史记录  商品ID："+history.getUserId()+"  浏览时间："+history.getHistoryDate());
+        }
+    }
 }

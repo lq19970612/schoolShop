@@ -14,12 +14,13 @@ public class HistoryServiceImpl implements HistoryService {
     @Qualifier("historyDao")
     private HistoryDao historyDao;
     @Override
-    public History getHistory(int userId) {
-        return historyDao.getHistory(userId);
+    public History[] selectHistoryByUserId(long userId) {
+        History[] histories = historyDao.selectHistoryByUserId(userId);
+        return histories;
     }
 
     @Override
-    public void deletHistory(int historyId) {
+    public void deletHistory(long historyId) {
         historyDao.deletHistory(historyId);
         System.out.println("删除成功");
     }

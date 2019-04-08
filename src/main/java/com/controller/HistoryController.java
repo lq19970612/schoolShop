@@ -25,11 +25,15 @@ public class HistoryController {
     }
     @RequestMapping(value="/selectHistoryByUserId",method= RequestMethod.POST)
     @ResponseBody
-    public History[] selectHistoryByUserId(@RequestBody History history){
-        History[] histories = historyService.selectHistoryByUserId(history.getUserId());
+    public History[] selectHistoryByUserId(@RequestBody int userId){
+        History[] histories = historyService.selectHistoryByUserId(userId);
         return histories;
     }
-
-
+    @RequestMapping(value="/deletHistory",method= RequestMethod.POST)
+    @ResponseBody
+    public void deletHistory(@RequestBody int goodsId){
+        historyService.deletHistory(goodsId);
+        System.out.println("浏览记录删除成功");
+    }
 
 }

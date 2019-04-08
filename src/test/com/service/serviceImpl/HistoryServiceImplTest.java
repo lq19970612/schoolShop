@@ -1,6 +1,7 @@
 package com.service.serviceImpl;
 
 import com.pojo.History;
+import com.service.HistoryService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +15,7 @@ import static org.junit.Assert.*;
 @ContextConfiguration(locations = {"classpath:spring-service.xml"})
 public class HistoryServiceImplTest {
     @Autowired(required = true)
-    private HistoryServiceImpl historyService;
+    private HistoryService historyService;
     @Test
     public void addHistory() {
         History history = new History();
@@ -25,9 +26,11 @@ public class HistoryServiceImplTest {
 
     @Test
     public void selectHistoryByUserId(){
-        History[] histories = historyService.selectHistoryByUserId(1);
-        for(History history:histories){
-            System.out.println("浏览历史记录  商品ID："+history.getUserId()+"  浏览时间："+history.getHistoryDate());
+        int user_Id=1;
+        History[] histories = historyService.selectHistoryByUserId(user_Id);
+        System.out.println(histories);
+        for(History history :histories){
+            System.out.println("HistoryId:"+history.getHistoryId()+"  UserId:"+history.getUserId()+"  GoodsId:"+history.getGoodsId()+"  GoodsName:"+history.getGoods().getGoodsName()+"  HistoryDate:"+history.getHistoryDate());
         }
     }
 }

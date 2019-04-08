@@ -6,9 +6,9 @@ import org.springframework.stereotype.Repository;
 @Repository("historyDao")
 public interface HistoryDao {
     //查看浏览记录
-    public History[] selectHistoryByUserId(long userId);
+    public History[] selectHistoryByUserId(int userId);
     //删除浏览记录
-    public void deletHistory(long historyId);
+    public void deletHistory(int goodsId);
     //添加浏览记录
     public void addHistory(History history);
 }

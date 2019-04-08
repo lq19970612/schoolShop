@@ -7,6 +7,7 @@ public class History {
   private long userId;
   private long goodsId;
   private java.sql.Timestamp historyDate;
+  private  Goods goods;
 
 
   public long getHistoryId() {
@@ -44,4 +45,11 @@ public class History {
     this.historyDate = historyDate;
   }
 
+  public Goods getGoods() {
+    return goods;
+  }
+
+  public void setGoods(Goods goods) {
+    this.goods = goods;
+  }
 }

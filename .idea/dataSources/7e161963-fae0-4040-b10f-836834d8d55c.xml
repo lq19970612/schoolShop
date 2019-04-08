@@ -1087,162 +1087,171 @@
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="263" parent="232" name="PRIMARY">
+    <index id="263" parent="232" name="goodsid">
+      <ColNames>goods_id</ColNames>
+    </index>
+    <key id="264" parent="232" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>history_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="264" parent="233" name="orderdetails_id">
-      <Position>1</Position>
-      <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="265" parent="233" name="goods_id">
-      <Position>2</Position>
-      <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="266" parent="233" name="goods_num">
-      <Position>3</Position>
-      <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="267" parent="233" name="order_id">
-      <Position>4</Position>
-      <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="268" parent="233" name="goods_id">
-      <ColNames>goods_id</ColNames>
-    </index>
-    <index id="269" parent="233" name="order_id">
-      <ColNames>order_id</ColNames>
-    </index>
-    <key id="270" parent="233" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>orderdetails_id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <foreign-key id="271" parent="233" name="goods_id">
+    <foreign-key id="265" parent="232" name="goodsid">
       <ColNames>goods_id</ColNames>
       <RefSchemaName>schoolshop</RefSchemaName>
       <RefTableName>goods</RefTableName>
       <RefColNames>goods_id</RefColNames>
     </foreign-key>
-    <foreign-key id="272" parent="233" name="order_id">
+    <column id="266" parent="233" name="orderdetails_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="267" parent="233" name="goods_id">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="268" parent="233" name="goods_num">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="269" parent="233" name="order_id">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="270" parent="233" name="goods_id">
+      <ColNames>goods_id</ColNames>
+    </index>
+    <index id="271" parent="233" name="order_id">
+      <ColNames>order_id</ColNames>
+    </index>
+    <key id="272" parent="233" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>orderdetails_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="273" parent="233" name="goods_id">
+      <ColNames>goods_id</ColNames>
+      <RefSchemaName>schoolshop</RefSchemaName>
+      <RefTableName>goods</RefTableName>
+      <RefColNames>goods_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="274" parent="233" name="order_id">
       <ColNames>order_id</ColNames>
       <RefSchemaName>schoolshop</RefSchemaName>
       <RefTableName>orders</RefTableName>
       <RefColNames>order_id</RefColNames>
     </foreign-key>
-    <column id="273" parent="234" name="order_id">
+    <column id="275" parent="234" name="order_id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="274" parent="234" name="user_id">
+    <column id="276" parent="234" name="user_id">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="275" parent="234" name="address_id">
+    <column id="277" parent="234" name="address_id">
       <Position>3</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="276" parent="234" name="order_date">
+    <column id="278" parent="234" name="order_date">
       <Position>4</Position>
       <DataType>datetime|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="277" parent="234" name="order_status">
+    <column id="279" parent="234" name="order_status">
       <Position>5</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="278" parent="234" name="PRIMARY">
+    <key id="280" parent="234" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>order_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="279" parent="235" name="shoppingCart_id">
+    <column id="281" parent="235" name="shoppingCart_id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="280" parent="235" name="user_id">
+    <column id="282" parent="235" name="user_id">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="281" parent="235" name="goods_id">
+    <column id="283" parent="235" name="goods_id">
       <Position>3</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="282" parent="235" name="goods_num">
+    <column id="284" parent="235" name="goods_num">
       <Position>4</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="283" parent="235" name="PRIMARY">
+    <key id="285" parent="235" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>shoppingCart_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="284" parent="236" name="store_id">
+    <column id="286" parent="236" name="store_id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="285" parent="236" name="store_name">
+    <column id="287" parent="236" name="store_name">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="286" parent="236" name="PRIMARY">
+    <key id="288" parent="236" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>store_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="287" parent="237" name="user_id">
+    <column id="289" parent="237" name="user_id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="288" parent="237" name="user_name">
+    <column id="290" parent="237" name="user_name">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="289" parent="237" name="user_password">
+    <column id="291" parent="237" name="user_password">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="290" parent="237" name="PRIMARY">
+    <key id="292" parent="237" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>user_id</ColNames>
       <Primary>1</Primary>

@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a73580e-0d10-41fc-b5df-61e643313adf" name="Default" comment="">
+    <list default="true" id="1a73580e-0d10-41fc-b5df-61e643313adf" name="Default" comment="4.8">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/controller/GoodsController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/test/com/service/serviceImpl/GoodsServiceImplTest.java" />
+      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/.idea/dataSources/7e161963-fae0-4040-b10f-836834d8d55c.xml" afterPath="$PROJECT_DIR$/../CampusShopingSystem/.idea/dataSources/7e161963-fae0-4040-b10f-836834d8d55c.xml" />
       <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../CampusShopingSystem/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/controller/HistoryController.java" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/controller/HistoryController.java" />
+      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/GoodsDao.java" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/GoodsDao.java" />
       <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/HistoryDao.java" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/HistoryDao.java" />
+      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/OrdersDao.java" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/OrdersDao.java" />
+      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Goods.java" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Goods.java" />
+      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/History.java" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/History.java" />
+      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Orders.java" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Orders.java" />
       <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/HistoryService.java" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/HistoryService.java" />
       <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/serviceImpl/HistoryServiceImpl.java" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/serviceImpl/HistoryServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/OrdersMapper.xml" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/OrdersMapper.xml" />
       <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/historyMapper.xml" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/historyMapper.xml" />
       <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/src/test/com/service/serviceImpl/HistoryServiceImplTest.java" afterPath="$PROJECT_DIR$/../CampusShopingSystem/src/test/com/service/serviceImpl/HistoryServiceImplTest.java" />
       <change beforePath="$PROJECT_DIR$/../CampusShopingSystem/target/classes/mapping/historyMapper.xml" afterPath="$PROJECT_DIR$/../CampusShopingSystem/target/classes/mapping/historyMapper.xml" />
@@ -33,20 +43,105 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="schoolshop@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="schoolshop@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="schoolshop@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="schoolshop: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="schoolshop@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="schoolshop: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="history: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="historyMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/historyMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="33" column="105" lean-forward="false" selection-start-line="33" selection-start-column="98" selection-end-line="33" selection-end-column="105" />
+              <folding>
+                <marker date="1554523537523" expanded="true" signature="1429:1527" ph="delete from history... " />
+                <marker date="1554523537523" expanded="true" signature="1672:1967" ph="select * fro... history" />
+                <marker date="1554523537523" expanded="true" signature="1858:1913" ph="select max(h... history" />
+                <marker date="1554523537523" expanded="true" signature="2068:2160" ph="insert into history... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrdersMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/OrdersMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <folding>
+                <marker date="1554715709060" expanded="true" signature="919:1030" ph="insert into orders" />
+                <marker date="1554715709060" expanded="true" signature="1133:1224" ph="select * fro... orders" />
+                <marker date="1554715709060" expanded="true" signature="1330:1442" ph="select * fro... orders" />
+                <marker date="1554715709060" expanded="true" signature="1544:1656" ph="select * fro... orders" />
+                <marker date="1554715709060" expanded="true" signature="1726:1786" ph="update orders... " />
+                <marker date="1554715709060" expanded="true" signature="1860:1920" ph="update orders... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Orderdetails.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Orderdetails.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Orders.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Orders.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="24" />
+              <folding>
+                <element signature="e#676#677#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#937#938#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>long</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -60,25 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/com/mapper/UserMapperTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mapper/userMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/test/com/dao/UserDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/redis.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-dao.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mykaptcha.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-redis.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-service.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-web.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapping/userMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapping/historyMapper.xml" />
-        <option value="$PROJECT_DIR$/src/test/com/dao/HistoryDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapping/historyMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/service/HistoryService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dao/HistoryDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-service.xml" />
@@ -111,6 +187,25 @@
         <option value="$PROJECT_DIR$/src/test/com/service/serviceImpl/HistoryServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/controller/HistoryController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapping/historyMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pojo/History.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pojo/Goods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/GoodsDao.java" />
+        <option value="$PROJECT_DIR$/src/test/com/service/serviceImpl/GoodsServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/service/serviceImpl/HistoryServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/HistoryController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/historyMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/HistoryDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/HistoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/serviceImpl/HistoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/OrdersDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pojo/History.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/historyMapper.xml" />
+        <option value="$PROJECT_DIR$/src/test/com/service/serviceImpl/HistoryServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pojo/Orders.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/OrdersMapper.xml" />
+        <option value="$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Orders.java" />
+        <option value="$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/OrdersMapper.xml" />
       </list>
     </option>
   </component>
@@ -127,11 +222,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="203" />
-    <option name="y" value="89" />
-    <option name="width" value="1620" />
-    <option name="height" value="920" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="923" />
+    <option name="y" value="21" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -198,7 +293,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
@@ -243,11 +338,93 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CampusShopingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusShopingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CampusShopingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusShopingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CampusShopingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusShopingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CampusShopingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusShopingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceImpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CampusShopingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusShopingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CampusShopingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusShopingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CampusShopingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusShopingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CampusShopingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusShopingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CampusShopingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusShopingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CampusShopingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CampusShopingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceImpl" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,7 +461,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HistoryServiceImplTest.selectHistoryByUserId">
+  <component name="RunManager" selected="JUnit.GoodsServiceImplTest.getGoods">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -306,6 +483,31 @@
       <module name="" />
       <envs />
     </configuration>
+    <configuration name="GoodsServiceImplTest.getGoods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.service.serviceImpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CampusShopingSystem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.service.serviceImpl" />
+      <option name="MAIN_CLASS_NAME" value="com.service.serviceImpl.GoodsServiceImplTest" />
+      <option name="METHOD_NAME" value="getGoods" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="HisstoryServiceImplTest.addHistory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -320,31 +522,6 @@
       <option name="MAIN_CLASS_NAME" value="com.service.serviceImpl.HisstoryServiceImplTest" />
       <option name="METHOD_NAME" value="addHistory" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="HistoryServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.service.serviceImpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="CampusShopingSystem" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.service.serviceImpl" />
-      <option name="MAIN_CLASS_NAME" value="com.service.serviceImpl.HistoryServiceImplTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -494,17 +671,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.HisstoryServiceImplTest.addHistory" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.HistoryServiceImplTest.addHistory" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.HistoryServiceImplTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.HistoryServiceImplTest.getHistory" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.HistoryServiceImplTest.selectHistoryByUserId" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.HistoryServiceImplTest.getHistory" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.HistoryServiceImplTest.selectHistoryByUserId" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GoodsServiceImplTest.getGoods" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.HistoryServiceImplTest.selectHistoryByUserId" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.HistoryServiceImplTest.getHistory" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GoodsServiceImplTest.getGoods" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HistoryServiceImplTest.selectHistoryByUserId" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.HistoryServiceImplTest.addHistory" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HisstoryServiceImplTest.addHistory" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.HistoryServiceImplTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.HistoryServiceImplTest.getHistory" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HisstoryServiceImplTest.addHistory" />
       </list>
     </recent_temporary>
   </component>
@@ -539,7 +716,10 @@
       <workItem from="1553766536469" duration="342000" />
       <workItem from="1554087794771" duration="597000" />
       <workItem from="1554274260815" duration="6452000" />
-      <workItem from="1554281485558" duration="20000" />
+      <workItem from="1554281485558" duration="284000" />
+      <workItem from="1554438779829" duration="10591000" />
+      <workItem from="1554520105012" duration="8827000" />
+      <workItem from="1554715156066" duration="1143000" />
     </task>
     <task id="LOCAL-00001" summary="pojo上传">
       <created>1552878389247</created>
@@ -597,64 +777,73 @@
       <option name="project" value="LOCAL" />
       <updated>1553766846392</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="4.3">
+      <created>1554281551568</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1554281551568</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HistoryServiceImplTest_addHistory - 2019.03.27 at 10h 54m 43s.xml">
+    <history-entry file="GoodsServiceImplTest_getGoods - 2019.04.07 at 11h 12m 00s.xml">
+      <configuration name="GoodsServiceImplTest.getGoods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoodsServiceImplTest_getGoods - 2019.04.07 at 11h 13m 41s.xml">
+      <configuration name="GoodsServiceImplTest.getGoods" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HistoryServiceImplTest_addHistory - 2019.04.06 at 11h 51m 20s.xml">
       <configuration name="HistoryServiceImplTest.addHistory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HistoryServiceImplTest_addHistory - 2019.03.28 at 11h 43m 52s.xml">
-      <configuration name="HistoryServiceImplTest.addHistory" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HistoryServiceImplTest_addHistory - 2019.04.03 at 15h 56m 07s.xml">
-      <configuration name="HistoryServiceImplTest.addHistory" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HistoryServiceImplTest_getHistory - 2019.04.03 at 15h 55m 44s.xml">
-      <configuration name="HistoryServiceImplTest.getHistory" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HistoryServiceImplTest_getHistory - 2019.04.03 at 15h 58m 33s.xml">
-      <configuration name="HistoryServiceImplTest.getHistory" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HistoryServiceImplTest_selectHistoryByUserId - 2019.04.03 at 16h 00m 52s.xml">
+    <history-entry file="HistoryServiceImplTest_selectHistoryByUserId - 2019.04.05 at 17h 41m 44s.xml">
       <configuration name="HistoryServiceImplTest.selectHistoryByUserId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HistoryServiceImplTest_selectHistoryByUserId - 2019.04.03 at 16h 01m 55s.xml">
+    <history-entry file="HistoryServiceImplTest_selectHistoryByUserId - 2019.04.05 at 17h 54m 39s.xml">
       <configuration name="HistoryServiceImplTest.selectHistoryByUserId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HistoryServiceImplTest_selectHistoryByUserId - 2019.04.03 at 16h 36m 37s.xml">
+    <history-entry file="HistoryServiceImplTest_selectHistoryByUserId - 2019.04.05 at 17h 58m 03s.xml">
       <configuration name="HistoryServiceImplTest.selectHistoryByUserId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HistoryServiceImplTest_selectHistoryByUserId - 2019.04.03 at 16h 42m 34s.xml">
+    <history-entry file="HistoryServiceImplTest_selectHistoryByUserId - 2019.04.06 at 12h 05m 51s.xml">
       <configuration name="HistoryServiceImplTest.selectHistoryByUserId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HistoryServiceImplTest_selectHistoryByUserId - 2019.04.03 at 16h 45m 41s.xml">
+    <history-entry file="HistoryServiceImplTest_selectHistoryByUserId - 2019.04.06 at 12h 07m 07s.xml">
+      <configuration name="HistoryServiceImplTest.selectHistoryByUserId" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HistoryServiceImplTest_selectHistoryByUserId - 2019.04.07 at 11h 12m 20s.xml">
+      <configuration name="HistoryServiceImplTest.selectHistoryByUserId" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HistoryServiceImplTest_selectHistoryByUserId - 2019.04.07 at 11h 13m 30s.xml">
       <configuration name="HistoryServiceImplTest.selectHistoryByUserId" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54503000" />
+    <option name="totallyTimeSpent" value="75328000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="203" y="89" width="1620" height="920" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3269639" sideWeight="0.49583334" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3312102" sideWeight="0.50625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3269639" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280255" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38641188" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38641188" sideWeight="0.61614585" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21571073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26302084" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5271399" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -665,7 +854,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3269639" sideWeight="0.49791667" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -682,26 +870,17 @@
     <MESSAGE value="0321" />
     <MESSAGE value="成功向数据库添加历记录" />
     <MESSAGE value="3.28" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.28" />
+    <MESSAGE value="4.3" />
+    <MESSAGE value="4.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://table:/76d8d86/7e161963-fae0-4040-b10f-836834d8d55c/schoolshop.user" />
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/test/test.java" />
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/test/com/test.java" />
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.17.RELEASE/spring-beans-4.3.17.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/test/com/mapper/UserMapperTest.java" />
     <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/mapper/userMapper.java" />
     <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/redis.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -723,6 +902,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -770,13 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/.idea/artifacts/CampusShopingSystem_war_exploded.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -805,13 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/76d8d86/7e161963-fae0-4040-b10f-836834d8d55c/schoolshop.history">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -824,13 +990,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1520">
           <caret line="80" column="8" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -838,13 +998,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -876,83 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/serviceImpl/GoodsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Orders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Orderdetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/OrdersDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="59" lean-forward="true" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/OrdersMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/GoodsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="64" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/GoodsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/History.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/userMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -960,48 +1037,242 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis-spring/1.2.3/mybatis-spring-1.2.3.jar!/org/mybatis/spring/MyBatisExceptionTranslator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis-spring/1.2.3/mybatis-spring-1.2.3.jar!/org/mybatis/spring/SqlSessionTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/HistoryDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="171">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/HistoryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/serviceImpl/HistoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/controller/HistoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        <state relative-caret-position="152">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/historyMapper.xml">
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/controller/HistoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#670#671#0" expanded="false" />
+            <element signature="e#723#724#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/GoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/dao/OrdersDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/76d8d86/7e161963-fae0-4040-b10f-836834d8d55c/schoolshop.history">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="59" lean-forward="true" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/History.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/GoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1553758543079" expanded="true" signature="877:922" ph="select * fro... goods" />
+            <marker date="1553758543079" expanded="true" signature="1001:1086" ph="update goods... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/test/com/service/serviceImpl/GoodsServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/test/com/service/serviceImpl/HistoryServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="475">
+          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/serviceImpl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/service/serviceImpl/HistoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Orders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/java/com/pojo/Orderdetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/historyMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="33" column="105" lean-forward="false" selection-start-line="33" selection-start-column="98" selection-end-line="33" selection-end-column="105" />
+          <folding>
+            <marker date="1554523537523" expanded="true" signature="1429:1527" ph="delete from history... " />
+            <marker date="1554523537523" expanded="true" signature="1672:1967" ph="select * fro... history" />
+            <marker date="1554523537523" expanded="true" signature="1858:1913" ph="select max(h... history" />
+            <marker date="1554523537523" expanded="true" signature="2068:2160" ph="insert into history... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CampusShopingSystem/src/main/resources/mapping/OrdersMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <marker date="1554715709060" expanded="true" signature="919:1030" ph="insert into orders" />
+            <marker date="1554715709060" expanded="true" signature="1133:1224" ph="select * fro... orders" />
+            <marker date="1554715709060" expanded="true" signature="1330:1442" ph="select * fro... orders" />
+            <marker date="1554715709060" expanded="true" signature="1544:1656" ph="select * fro... orders" />
+            <marker date="1554715709060" expanded="true" signature="1726:1786" ph="update orders... " />
+            <marker date="1554715709060" expanded="true" signature="1860:1920" ph="update orders... " />
+          </folding>
         </state>
       </provider>
     </entry>

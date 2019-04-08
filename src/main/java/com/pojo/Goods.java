@@ -3,22 +3,22 @@ package com.pojo;
 
 public class Goods {
 
-  private long goodsId;
+  private int goodsId;
   private String goodsName;
   private double goodsPrice;
   private String goodsDesc;
   private String goodsType;
   private String goodsImg;
-  private long goodsStock;
-  private long goodsStatus;
-  private long storeId;
+  private int goodsStock;
+  private int goodsStatus;
+  private int storeId;
 
 
-  public long getGoodsId() {
+  public int getGoodsId() {
     return goodsId;
   }
 
-  public void setGoodsId(long goodsId) {
+  public void setGoodsId(int goodsId) {
     this.goodsId = goodsId;
   }
 
@@ -68,29 +68,29 @@ public class Goods {
   }
 
 
-  public long getGoodsStock() {
+  public int getGoodsStock() {
     return goodsStock;
   }
 
-  public void setGoodsStock(long goodsStock) {
+  public void setGoodsStock(int goodsStock) {
     this.goodsStock = goodsStock;
   }
 
 
-  public long getGoodsStatus() {
+  public int getGoodsStatus() {
     return goodsStatus;
   }
 
-  public void setGoodsStatus(long goodsStatus) {
+  public void setGoodsStatus(int goodsStatus) {
     this.goodsStatus = goodsStatus;
   }
 
 
-  public long getStoreId() {
+  public int getStoreId() {
     return storeId;
   }
 
-  public void setStoreId(long storeId) {
+  public void setStoreId(int storeId) {
     this.storeId = storeId;
   }
 

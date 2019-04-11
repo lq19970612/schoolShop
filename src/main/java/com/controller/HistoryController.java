@@ -3,10 +3,7 @@ package com.controller;
 import com.pojo.History;
 import com.service.HistoryService;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -25,13 +22,13 @@ public class HistoryController {
     }
     @RequestMapping(value="/selectHistoryByUserId",method= RequestMethod.POST)
     @ResponseBody
-    public History[] selectHistoryByUserId(@RequestBody int userId){
+    public History[] selectHistoryByUserId(@RequestParam int userId){
         History[] histories = historyService.selectHistoryByUserId(userId);
         return histories;
     }
     @RequestMapping(value="/deletHistory",method= RequestMethod.POST)
     @ResponseBody
-    public void deletHistory(@RequestBody int goodsId){
+    public void deletHistory(@RequestParam int goodsId){
         historyService.deletHistory(goodsId);
         System.out.println("浏览记录删除成功");
     }

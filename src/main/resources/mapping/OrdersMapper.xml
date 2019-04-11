@@ -8,7 +8,7 @@
         <result property="userId" column="user_id"/>
         <result property="orderStatus" column="order_status"/>
         <result property="addressId" column="address_id"/>
-        <
+
         <collection property="orderdetails" ofType="com.pojo.Orderdetails">
             <id property="orderdetailsId" column="orderdetails_id"/>
             <result property="goodsId" column="goods_id"/>

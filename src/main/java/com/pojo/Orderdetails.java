@@ -7,7 +7,7 @@ public class Orderdetails {
   private long goodsId;
   private long goodsNum;
   private long orderId;
-
+  private long evaluation;
 
   public long getOrderdetailsId() {
     return orderdetailsId;
@@ -44,4 +44,11 @@ public class Orderdetails {
     this.orderId = orderId;
   }
 
+  public long getEvaluation() {
+    return evaluation;
+  }
+
+  public void setEvaluation(long evaluation) {
+    this.evaluation = evaluation;
+  }
 }

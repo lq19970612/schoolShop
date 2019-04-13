@@ -1,12 +1,10 @@
-package com.dao;
+package com.service;
 
 import com.pojo.Favourites;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository("favouritesDao")
-public interface FavouritesDao {
+public interface FavouritesService {
     //取消收藏
     public void deleteFavourite(int favouritesId);
     //收藏商品

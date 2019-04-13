@@ -8,19 +8,22 @@
         <result property="userId" column="user_id"/>
         <result property="orderStatus" column="order_status"/>
         <result property="addressId" column="address_id"/>
-
         <collection property="orderdetails" ofType="com.pojo.Orderdetails">
             <id property="orderdetailsId" column="orderdetails_id"/>
             <result property="goodsId" column="goods_id"/>
             <result property="goodsNum" column="goods_num"/>
             <result property="orderId" column="order_id"/>
+            <result property="evaluation" column="evaluation"/>
         </collection>
     </resultMap>
     <insert id="addOrder" parameterType="OrderResult">
-        insert into  orders(user_id,address_id,order_date,order_status) VALUES (userId,addressId,SYSDATE(),orderStatus)
+        insert into  orders(user_id,address_id,order_date,order_status) VALUES (userId,addressId,SYSDATE(),1)
     </insert>
     <select id="getOrdersByUserId" resultMap="OrderResult" parameterType="int">
         select * from orders o,orderdetails od where o.user_id=#{userId} and od.order_id=o.order_id
+    </select>
+    <select id="getOrders" resultMap="OrderResult" parameterType="int">
+        select * from orders o,orderdetails od where o.user_id=#{userId} and od.order_id=o.order_id and o.order_status=1
     </select>
 
     <select id="getNotTakeOverOrder" resultMap="OrderResult" parameterType="int">

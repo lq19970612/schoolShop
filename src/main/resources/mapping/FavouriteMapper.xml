@@ -3,8 +3,8 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.dao.FavouriteGoodsDao">
-    <resultMap id="FavouriteResult" type="com.pojo.Favorites">
-        <id property="favouriteId" column="favourite_id"/>
+    <resultMap id="FavouriteResult" type="com.pojo.Favourites">
+        <id property="favouritesId" column="favourites_id"/>
         <result property="userId" column="user_id"/>
         <result property="goodsId" column="goods_id"/>
         <result property="storeId" column="store_id"/>
@@ -25,19 +25,19 @@
         </association>
     </resultMap>
     <select id="getFavouriteGoods" resultMap="FavouriteResult" parameterType="int">
-        select * from favorites where user_id =#{userId} and goods_id is not null
+        select * from favourites where user_id =#{userId} and goods_id is not null
     </select>
 
     <select id="getFavouriteStore" resultMap="FavouriteResult" parameterType="int">
-        select * from favorites where user_id =#{userId} and store_id is not null
+        select * from favourites where user_id =#{userId} and store_id is not null
     </select>
 
-    <insert id="addFavouriteGoods" parameterType="com.pojo.Favorites">
-        insert into favorites(user_id, goods_id)  values (#{userId},#{goodsId})
+    <insert id="addFavouriteGoods" parameterType="com.pojo.Favourites">
+        insert into favourites(user_id, goods_id)  values (#{userId},#{goodsId})
     </insert>
 
-    <insert id="addFavouriteStore" parameterType="com.pojo.Favorites">
-        insert into favorites(user_id, store_id)  values (#{userId},#{storeId})
+    <insert id="addFavouriteStore" parameterType="com.pojo.Favourites">
+        insert into favourites(user_id, store_id)  values (#{userId},#{storeId})
     </insert>
 
     <delete id="deleteFavourite" parameterType="int">

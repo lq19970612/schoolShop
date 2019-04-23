@@ -8,6 +8,7 @@ public class Orderdetails {
   private long goodsNum;
   private long orderId;
   private long evaluation;
+  private Goods goods;
 
   public long getOrderdetailsId() {
     return orderdetailsId;
@@ -50,5 +51,13 @@ public class Orderdetails {
 
   public void setEvaluation(long evaluation) {
     this.evaluation = evaluation;
+  }
+
+  public Goods getGoods() {
+    return goods;
+  }
+
+  public void setGoods(Goods goods) {
+    this.goods = goods;
   }
 }

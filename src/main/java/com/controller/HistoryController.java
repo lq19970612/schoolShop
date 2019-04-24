@@ -2,6 +2,7 @@ package com.controller;
 
 import com.pojo.History;
 import com.service.HistoryService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,7 +12,7 @@ import java.util.List;
 @Controller
 @RequestMapping("/history")
 public class HistoryController {
-    @Resource
+    @Autowired(required = true)
     private HistoryService historyService;
 
     @RequestMapping(value="/addHistory",method= RequestMethod.POST)

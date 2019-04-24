@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service("ordersService")
 public class OrdersServiceImpl implements OrdersService {
     @Autowired(required = true)
@@ -19,20 +21,20 @@ public class OrdersServiceImpl implements OrdersService {
     }
 
     @Override
-    public Orders[] getOrdersByUserId(int userId) {
-        Orders[] orders = ordersDao.getOrdersByUserId(userId);
+    public List<Orders> getOrdersByUserId(int userId) {
+        List<Orders> orders = ordersDao.getOrdersByUserId(userId);
         return orders;
     }
 
     @Override
-    public Orders[] getNotTakeOverOrder(int userId) {
-        Orders[] orders = ordersDao.getNotTakeOverOrder(userId);
+    public List<Orders> getNotTakeOverOrder(int userId) {
+        List<Orders> orders = ordersDao.getNotTakeOverOrder(userId);
         return orders;
     }
 
     @Override
-    public Orders[] getTakeOverOrder(int userId) {
-        Orders[] orders = ordersDao.getTakeOverOrder(userId);
+    public List<Orders> getTakeOverOrder(int userId) {
+        List<Orders> orders = ordersDao.getTakeOverOrder(userId);
         return orders;
     }
 
@@ -47,8 +49,8 @@ public class OrdersServiceImpl implements OrdersService {
     }
 
     @Override
-    public Orders[] getOrders(int userId) {
-        Orders[] orders = ordersDao.getOrders(userId);
+    public List<Orders> getOrders(int userId) {
+        List<Orders> orders = ordersDao.getOrders(userId);
         return orders;
     }
 }

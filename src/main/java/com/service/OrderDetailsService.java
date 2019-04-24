@@ -1,12 +1,10 @@
-package com.dao;
+package com.service;
 
 import com.pojo.Orderdetails;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository("orderdetailsDao")
-public interface OrderDetailsDao {
+public interface OrderDetailsService {
     public List<Orderdetails> getAllOrderDetails();
     public List<Orderdetails>  getOrderDetailsByOrderId(int orderId);
     public Orderdetails getOrderDetails(int orderdetailsId);

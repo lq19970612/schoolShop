@@ -24,8 +24,11 @@
     <select id="getAllOrderDetails" resultMap="orderdetails" >
         select * FROM orderdetails
     </select>
-    <select id="getOrderDetails" resultMap="orderdetails" parameterType="int">
+    <select id="getOrderDetailsByOrderId" resultMap="orderdetails" parameterType="int">
         select * from orderdetails o  where o.order_id=#{orderId}
+    </select>
+    <select id="getOrderDetails" resultMap="orderdetails" parameterType="int">
+        select * from orderdetails o  where o.orderdetails_id= #{orderdetailsId}
     </select>
     <insert id="addOrderDetails" parameterType="com.pojo.Orderdetails">
         INSERT  INTO  orderdetails(goods_id, goods_num, order_id) VALUES (#{goodsId},#{goodsNum},#{orderId})

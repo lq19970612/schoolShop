@@ -22,13 +22,13 @@ public class HistoryController {
     }
     @RequestMapping(value="/selectHistoryByUserId",method= RequestMethod.POST)
     @ResponseBody
-    public History[] selectHistoryByUserId(@RequestParam int userId){
+    public History[] selectHistoryByUserId(@RequestParam(value = "userId",required = false)int userId){
         History[] histories = historyService.selectHistoryByUserId(userId);
         return histories;
     }
     @RequestMapping(value="/deletHistory",method= RequestMethod.POST)
     @ResponseBody
-    public void deletHistory(@RequestParam int goodsId){
+    public void deletHistory(@RequestParam(value = "goodsId",required = false) int goodsId){
         historyService.deletHistory(goodsId);
         System.out.println("浏览记录删除成功");
     }

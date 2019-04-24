@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 @Controller
@@ -63,4 +62,33 @@ public class OrdersController {
         System.out.println("发货成功");
     }
 
+    //获取已收货订单信息
+    @RequestMapping(value="/getTakeOverOrder",method= RequestMethod.POST)
+    @ResponseBody
+    public List<Orders> getTakeOverOrder (@RequestParam(value = "userId",required = false) int userId){
+        List<Orders> ordersList = ordersService.getTakeOverOrder(userId);
+        for (Orders  o :ordersList){
+            List<Orderdetails> orderdetailsList = orderDetailsService.getOrderDetailsByOrderId((int) o.getOrderId());
+            for (Orderdetails orderdetails:orderdetailsList){
+                orderdetails.setGoods(goodsService.getGoods((int) orderdetails.getGoodsId()));
+            }
+            o.setOrderdetailsList(orderdetailsList);
+        }
+        return ordersList;
+
+    }
+    //获取已发货订单
+    @RequestMapping(value="/getNotTakeOverOrder",method= RequestMethod.POST)
+    @ResponseBody
+    public List<Orders>  getNotTakeOverOrder(@RequestParam(value = "userId",required = false) int userId){
+        List<Orders> ordersList =  ordersService.getNotTakeOverOrder(userId);
+        for (Orders  o :ordersList){
+            List<Orderdetails> orderdetailsList = orderDetailsService.getOrderDetailsByOrderId((int) o.getOrderId());
+            for (Orderdetails orderdetails:orderdetailsList){
+                orderdetails.setGoods(goodsService.getGoods((int) orderdetails.getGoodsId()));
+            }
+            o.setOrderdetailsList(orderdetailsList);
+        }
+        return ordersList;
+    }
 }

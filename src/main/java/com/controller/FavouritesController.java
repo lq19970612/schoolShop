@@ -23,13 +23,21 @@ public class FavouritesController {
     //收藏商品
     @RequestMapping(value="/addFavouriteGoods",method= RequestMethod.POST)
     @ResponseBody
-    public void addFavouriteGoods(@RequestBody Favourites favourites){
+    public void addFavouriteGoods(@RequestParam(value = "goodsId",required = false)int goodsId,
+                                  @RequestParam(value = "userId",required = false)int userId){
+        Favourites favourites = new Favourites();
+        favourites.setUserId(userId);
+        favourites.setGoodsId(goodsId);
         favouritesService.addFavouriteGoods(favourites);
     }
     //收藏店铺
     @RequestMapping(value="/addFavouriteStore",method= RequestMethod.POST)
     @ResponseBody
-    public void addFavouriteStore(@RequestBody Favourites favourites){
+    public void addFavouriteStore(@RequestParam(value = "storeId",required = false)int storeId,
+                                  @RequestParam(value = "userId",required = false)int userId){
+        Favourites favourites = new Favourites();
+        favourites.setUserId(userId);
+        favourites.setStoreId(storeId);
         favouritesService.addFavouriteStore(favourites);
     }
     //查询商品收藏

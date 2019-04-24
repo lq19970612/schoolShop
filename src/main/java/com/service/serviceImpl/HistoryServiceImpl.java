@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service("historyService")
 public class HistoryServiceImpl implements HistoryService {
 
@@ -14,8 +16,8 @@ public class HistoryServiceImpl implements HistoryService {
     @Qualifier("historyDao")
     private HistoryDao historyDao;
     @Override
-    public History[] selectHistoryByUserId(int userId) {
-        History[] histories = historyDao.selectHistoryByUserId(userId);
+    public List<History> selectHistoryByUserId(int userId) {
+        List<History> histories = historyDao.selectHistoryByUserId(userId);
         return histories;
     }
 

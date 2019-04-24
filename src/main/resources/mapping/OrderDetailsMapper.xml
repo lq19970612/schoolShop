@@ -22,13 +22,13 @@
         </association>
     </resultMap>
     <select id="getAllOrderDetails" resultMap="orderdetails" >
-        select * FROM orderdetails
+        select * FROM orderdetails o,goods g where g.goods_id=o.goods_id
     </select>
     <select id="getOrderDetailsByOrderId" resultMap="orderdetails" parameterType="int">
-        select * from orderdetails o  where o.order_id=#{orderId}
+        select * from orderdetails o,goods g  where o.order_id=#{orderId} and g.goods_id=o.goods_id
     </select>
     <select id="getOrderDetails" resultMap="orderdetails" parameterType="int">
-        select * from orderdetails o  where o.orderdetails_id= #{orderdetailsId}
+        select * from orderdetails o,goods g  where o.orderdetails_id= #{orderdetailsId} and g.goods_id=o.goods_id
     </select>
     <insert id="addOrderDetails" parameterType="com.pojo.Orderdetails">
         INSERT  INTO  orderdetails(goods_id, goods_num, order_id) VALUES (#{goodsId},#{goodsNum},#{orderId})

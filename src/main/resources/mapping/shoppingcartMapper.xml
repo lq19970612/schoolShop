@@ -24,7 +24,7 @@
         insert into shoppingcart(user_id, goods_id, goods_num) VALUES (#{userId},#{goodsId},#{goodsNum})
     </insert>
     <select id="selectShoppingcartByUserId" parameterType="int" resultMap="ShoppingcartResult">
-        select * from shoppingcart where user_id=#{userId}
+        select * from shoppingcart  s,goods g where s.user_id=#{userId} and g.goods_id=s.goods_id
     </select>
     <delete id="deleteShopingCart" parameterType="int">
         DELETE  from shoppingcart where shoppingCart_id=#{shoppingCartId}

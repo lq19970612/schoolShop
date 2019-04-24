@@ -23,8 +23,8 @@ public class HistoryController {
     }
     @RequestMapping(value="/selectHistoryByUserId",method= RequestMethod.POST)
     @ResponseBody
-    public History[] selectHistoryByUserId(@RequestParam(value = "userId",required = false)int userId){
-        History[] histories = historyService.selectHistoryByUserId(userId);
+    public List<History> selectHistoryByUserId(@RequestParam(value = "userId",required = false)int userId){
+        List<History> histories = historyService.selectHistoryByUserId(userId);
         return histories;
     }
     @RequestMapping(value="/deletHistory",method= RequestMethod.POST)

@@ -12,7 +12,7 @@ import java.util.List;
 @Service("orderDetailsService")
 public class OrderDetailsServiceImpl implements OrderDetailsService {
     @Autowired(required = true)
-    @Qualifier("orderDetailsDao")
+    @Qualifier("orderdetailsDao")
     private OrderDetailsDao orderDetailsDao;
     @Override
     public List<Orderdetails> getAllOrderDetails() {

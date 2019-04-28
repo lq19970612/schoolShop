@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import java.util.List;
+
 import static org.junit.Assert.*;
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -27,7 +29,7 @@ public class HistoryServiceImplTest {
     @Test
     public void selectHistoryByUserId(){
         int user_Id=1;
-        History[] histories = historyService.selectHistoryByUserId(user_Id);
+        List<History> histories = historyService.selectHistoryByUserId(user_Id);
         System.out.println(histories);
         for(History history :histories){
             System.out.println("HistoryId:"+history.getHistoryId()+"  UserId:"+history.getUserId()+"  GoodsId:"+history.getGoodsId()+"  GoodsName:"+history.getGoods().getGoodsName()+"  HistoryDate:"+history.getHistoryDate());
